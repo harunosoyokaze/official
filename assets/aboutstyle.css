@@ -3,7 +3,7 @@ body{
     color: #fff;
 }
    
-#nav li {
+/* #nav li {
     width: 140px;
     list-style: none;
     text-align: center;
@@ -19,27 +19,23 @@ body{
     color: #ffffff;
     font-weight: bold;
     padding: 20px;
-}
+} */
 
 p{
     line-height: 50px;
 }
 
 .line{
-    background-image: linear-gradient(to right top, transparent calc(50% - 0.5px), #999 50%, #ffffff calc(50% + 0.5px), transparent calc(50% + 1px));
+    background-image: linear-gradient(to right top, transparent calc(50% - 0.5px), #ffffff 50%, #ffffff calc(50% + 0.5px), transparent calc(50% + 1px));
 }
 
-.works,.sns{
-    display: flex;
+.works{
+    /* display: flex; */
     list-style: none;
-    padding: 1%;
+    /* padding: 1%; */
 }
 
 .works li{
     padding: 20px;
-}
-
-.sns li{
-    padding: 10px;
 }
 
