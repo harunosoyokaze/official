@@ -14,7 +14,13 @@ header{
 }
 
 header img{
-    width: 100px;
+    padding: 20px;
+    width: 150px;
+}
+
+header h1{
+    /* padding: 5px; */
+    text-align: center;
 }
 
 header ul{
@@ -32,7 +38,7 @@ header ul li{
     margin-left: 20px;
 }
 
-#nav {
+/* #nav {
     list-style: none;
     display: flex;
 }
@@ -51,10 +57,14 @@ header ul li{
     color: #333;
     font-weight: bold;
     padding: 20px;
-}
+} */
 
 h1,h2,#titile{
     color: #fff;
+}
+
+h1 #title{
+    text-align: center;
 }
 
 p{
