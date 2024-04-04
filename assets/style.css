@@ -10,6 +10,11 @@ body{
 
 header{
     color: #ffffff;
+    display: flex;
+}
+
+header img{
+    margin: 40px;
 }
 
 header ul{
@@ -25,6 +30,27 @@ header nav{
 
 header ul li{
     margin-left: 20px;
+}
+
+#nav {
+    list-style: none;
+    display: flex;
+}
+   
+#nav li {
+    width: 140px;
+    text-align: center;
+    background-color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 2px;
+}
+   
+#nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 20px;
 }
 
 h1,h2,#titile{
