@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+
+
+}
+
 body{
     background-color: rgb(249, 149, 231);
 }
@@ -6,7 +12,22 @@ header{
     color: #ffffff;
 }
 
-h1, #titile{
+header ul{
+    list-style: none;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+header nav{
+    margin-left: auto;
+}
+
+header ul li{
+    margin-left: 20px;
+}
+
+h1,h2,#titile{
     color: #fff;
 }
 
@@ -89,6 +110,3 @@ textarea{
     }
 }
   
-*{
-    box-sizing: border-box;
-}
